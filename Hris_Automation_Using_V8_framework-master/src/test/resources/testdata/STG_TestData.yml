@@ -1,0 +1,21 @@
+baseUrl: http://qa.clickngrade.com/
+baseUrl_hris: https://hris.qainfotech.com/
+
+  
+username: tarangsharma@qainfotech.com 
+password: Qait@123
+
+username_hris: krishnachauhan
+password_hris: Krishna@321#
+
+nousername_hris: "" 
+nopassword_hris: ""
+
+incorrectUsername: krsihnachuhan
+incorrectPassword: password
+
+Name : Krishna Chauhan  
+##email:
+##    recepients: 
+##        recepient1: priyadarshibharat@qainfotech.com
+##        recepient2: umangtiwari@qainfotech.com 

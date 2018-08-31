@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The application url is :- https://hris.qainfotech.com/]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- chrome
+]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_login_container is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On login container]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element alt_Boxuser is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element alt_boxPass is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_invalidUser is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element alt_Boxuser is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_login_container is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On login container]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Get profile name : Krishna]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_TimeSheet is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_ProfileName is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_ProfileName is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_MyProfile is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18252" started-at="2018-08-31T09:50:30Z" finished-at="2018-08-31T09:50:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18252" started-at="2018-08-31T09:50:30Z" finished-at="2018-08-31T09:50:49Z">
+      <class name="com.qait.demo.tests.HrisTestFile">
+        <test-method status="PASS" signature="loadProjectFile()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="loadProjectFile" is-config="true" duration-ms="916" started-at="2018-08-31T15:20:30Z" finished-at="2018-08-31T15:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProjectFile -->
+        <test-method status="PASS" signature="isHrisLoginSuccessfullWithNoUsernameAndNoPassword()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="isHrisLoginSuccessfullWithNoUsernameAndNoPassword" duration-ms="2421" started-at="2018-08-31T15:20:31Z" finished-at="2018-08-31T15:20:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The application url is :- https://hris.qainfotech.com/]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- chrome
+]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_login_container is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On login container]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element alt_Boxuser is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isHrisLoginSuccessfullWithNoUsernameAndNoPassword -->
+        <test-method status="PASS" signature="isHrisLoginSuccessfullWithUsernameAndNoPassword()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="isHrisLoginSuccessfullWithUsernameAndNoPassword" duration-ms="514" started-at="2018-08-31T15:20:34Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithNoUsernameAndNoPassword" finished-at="2018-08-31T15:20:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element alt_boxPass is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isHrisLoginSuccessfullWithUsernameAndNoPassword -->
+        <test-method status="PASS" signature="isHrisLoginSuccessfullWithValidUsernameAndinvalidPassword()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="isHrisLoginSuccessfullWithValidUsernameAndinvalidPassword" duration-ms="1808" started-at="2018-08-31T15:20:34Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithUsernameAndNoPassword" finished-at="2018-08-31T15:20:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_invalidUser is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isHrisLoginSuccessfullWithValidUsernameAndinvalidPassword -->
+        <test-method status="PASS" signature="isHrisLoginSuccessfullWithnoUsernameAndValidPassword()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="isHrisLoginSuccessfullWithnoUsernameAndValidPassword" duration-ms="579" started-at="2018-08-31T15:20:36Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithValidUsernameAndinvalidPassword" finished-at="2018-08-31T15:20:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element alt_Boxuser is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isHrisLoginSuccessfullWithnoUsernameAndValidPassword -->
+        <test-method status="PASS" signature="IsHrisLoginSuccessfull()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="IsHrisLoginSuccessfull" duration-ms="4761" started-at="2018-08-31T15:20:37Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithnoUsernameAndValidPassword" finished-at="2018-08-31T15:20:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element btn_login_container is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On login container]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_login is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Get profile name : Krishna]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IsHrisLoginSuccessfull -->
+        <test-method status="PASS" signature="isTimeSheetPageTitleDisplayed()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="isTimeSheetPageTitleDisplayed" duration-ms="9" started-at="2018-08-31T15:20:41Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.IsHrisLoginSuccessfull" finished-at="2018-08-31T15:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTimeSheetPageTitleDisplayed -->
+        <test-method status="PASS" signature="isTimeSheetPageHeaderDisplayed()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="isTimeSheetPageHeaderDisplayed" duration-ms="77" started-at="2018-08-31T15:20:41Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.isTimeSheetPageTitleDisplayed" finished-at="2018-08-31T15:20:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element txt_TimeSheet is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isTimeSheetPageHeaderDisplayed -->
+        <test-method status="PASS" signature="isTimeSheetPageProfileTxtDisplayed()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="isTimeSheetPageProfileTxtDisplayed" duration-ms="65" started-at="2018-08-31T15:20:42Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.isTimeSheetPageHeaderDisplayed" finished-at="2018-08-31T15:20:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element btn_ProfileName is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isTimeSheetPageProfileTxtDisplayed -->
+        <test-method status="PASS" signature="IsTimeSheetPageDisplayed()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="IsTimeSheetPageDisplayed" duration-ms="1956" started-at="2018-08-31T15:20:42Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.isTimeSheetPageProfileTxtDisplayed" finished-at="2018-08-31T15:20:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element btn_ProfileName is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_MyProfile is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IsTimeSheetPageDisplayed -->
+        <test-method status="PASS" signature="checkPersonalDetailsonHris()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="checkPersonalDetailsonHris" duration-ms="41" started-at="2018-08-31T15:20:44Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.IsTimeSheetPageDisplayed" finished-at="2018-08-31T15:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPersonalDetailsonHris -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qait.demo.tests.HrisTestFile@72d818d1]" name="closeBrowser" is-config="true" duration-ms="5081" started-at="2018-08-31T15:20:44Z" finished-at="2018-08-31T15:20:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qait.demo.tests.HrisTestFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

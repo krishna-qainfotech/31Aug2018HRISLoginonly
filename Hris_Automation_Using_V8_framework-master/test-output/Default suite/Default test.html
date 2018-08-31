@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 31 15:20:30 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18252 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.IsHrisLoginSuccessfull()'><b>IsHrisLoginSuccessfull</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-1834361038" onClick='toggleBox("Output-1834361038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1834361038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1834361038">
+TEST PASSED: element btn_login_container is displayed.<br/>
+Clicked On login container<br/>
+TEST PASSED: element txt_login is displayed.<br/>
+TEST PASSED: element txt_password is displayed.<br/>
+TEST PASSED: element btn_sign_in is displayed.<br/>
+Get profile name : Krishna<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.IsTimeSheetPageDisplayed()'><b>IsTimeSheetPageDisplayed</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-177140066" onClick='toggleBox("Output-177140066", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-177140066" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-177140066">
+TEST PASSED: element btn_ProfileName is displayed.<br/>
+TEST PASSED: element btn_MyProfile is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.checkPersonalDetailsonHris()'><b>checkPersonalDetailsonHris</b><br>Test class: com.qait.demo.tests.HrisTestFile</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithNoUsernameAndNoPassword()'><b>isHrisLoginSuccessfullWithNoUsernameAndNoPassword</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-216856121" onClick='toggleBox("Output-216856121", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-216856121" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-216856121">
+
+The application url is :- https://hris.qainfotech.com/<br/>
+The test browser is :- chrome
+<br/>
+TEST PASSED: element btn_login_container is displayed.<br/>
+Clicked On login container<br/>
+TEST PASSED: element txt_login is displayed.<br/>
+TEST PASSED: element txt_password is displayed.<br/>
+TEST PASSED: element btn_sign_in is displayed.<br/>
+TEST PASSED: element alt_Boxuser is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithUsernameAndNoPassword()'><b>isHrisLoginSuccessfullWithUsernameAndNoPassword</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-253601149" onClick='toggleBox("Output-253601149", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-253601149" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-253601149">
+TEST PASSED: element txt_login is displayed.<br/>
+TEST PASSED: element txt_password is displayed.<br/>
+TEST PASSED: element btn_sign_in is displayed.<br/>
+TEST PASSED: element alt_boxPass is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithValidUsernameAndinvalidPassword()'><b>isHrisLoginSuccessfullWithValidUsernameAndinvalidPassword</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-603305436" onClick='toggleBox("Output-603305436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-603305436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-603305436">
+TEST PASSED: element txt_login is displayed.<br/>
+TEST PASSED: element txt_password is displayed.<br/>
+TEST PASSED: element btn_sign_in is displayed.<br/>
+TEST PASSED: element txt_invalidUser is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.isHrisLoginSuccessfullWithnoUsernameAndValidPassword()'><b>isHrisLoginSuccessfullWithnoUsernameAndValidPassword</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-1825719826" onClick='toggleBox("Output-1825719826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1825719826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1825719826">
+TEST PASSED: element txt_login is displayed.<br/>
+TEST PASSED: element txt_password is displayed.<br/>
+TEST PASSED: element btn_sign_in is displayed.<br/>
+TEST PASSED: element alt_Boxuser is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.isTimeSheetPageHeaderDisplayed()'><b>isTimeSheetPageHeaderDisplayed</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-1753714541" onClick='toggleBox("Output-1753714541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1753714541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1753714541">
+TEST PASSED: element txt_TimeSheet is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.isTimeSheetPageProfileTxtDisplayed()'><b>isTimeSheetPageProfileTxtDisplayed</b><br>Test class: com.qait.demo.tests.HrisTestFile<br/>
+<a href="#Output-1095273238" onClick='toggleBox("Output-1095273238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1095273238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1095273238">
+TEST PASSED: element btn_ProfileName is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+<tr>
+<td title='com.qait.demo.tests.HrisTestFile.isTimeSheetPageTitleDisplayed()'><b>isTimeSheetPageTitleDisplayed</b><br>Test class: com.qait.demo.tests.HrisTestFile</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.HrisTestFile@72d818d1</td></tr>
+</table><p>
+</body>
+</html>
